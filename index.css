@@ -17,11 +17,6 @@ body { background-color: black;
         justify-content: flex-end;
 }
 
-.logo {   flex: 1 ;
-        padding: 20px ;
-        margin: 0;
-}
-
 
 .dropbtn { 
         cursor: pointer;
@@ -89,9 +84,9 @@ margin-top: 7px;
 
 
 .maincont {
-        width: 90%;
+        width: 100%;
         background-color: black ;
-        height: 90%;
+        height: %;
 }
 
 
@@ -105,7 +100,7 @@ margin-top: 7px;
 }
 
 
-.article1 {      font-family: 'Playfair Display', serif; 
+.article1 {     font-family: font-family: 'Roboto', sans-serif; 
                 color:  whitesmoke;
                 font-size: 23px;
                 padding: 28px;
@@ -129,7 +124,7 @@ margin-top: 7px;
 }
 
 #h2 {	
-		font-family: 'Playfair Display', serif; 
+		font-family: font-family: 'Roboto', sans-serif;  
 		color:  whitesmoke;
 		font-size: 22px;
 		padding: 20px;
@@ -147,7 +142,7 @@ margin-top: 7px;
 
 }
 
-.secondmain { 
+.secondmain { font-family: 'Roboto', sans-serif; 
         display: flex;
         align-content: flex-end;
         background-color: floralwhite;
@@ -158,33 +153,236 @@ margin-top: 7px;
         z-index:1;
 }
 
-#presentation {font-family: 'Playfair Display', serif; 
+#presentation {font-family: 'Roboto', sans-serif; 
                 color:  black;
                 font-size: 22px;
                 padding: 20px;
                 font-weight: 300;
                 position: static;
                 z-index:1;
-
+                width: 70%;
+                text-align: center;
+                position: relative;
+                left: 130px;
 }
 
 
 
 .undermenu {
         height: 400px;
+        display: flex;
         justify-content: space-between;
-        align-content: bottom;
+        align-content: flex-end;
         position: relative;
+
 }
 
-#glossario {
-        height: 200px; 
+#glossario { 
         width: 100%;
-        z-index:2;
         position: static;
 
+}
+
+#decouvre {width: 50%;
+      background-color: whitesmoke;
+}
+
+
+
+
+/*other pages*/
+
+
+
+
+#plantesbody { background-color: floralwhite;
+                overflow-x: hidden;
+ }
+
+.header2 {
+        top: 0;
+}
+
+
+.nav2 { height: 100px;
+}
+
+.logo { 
+        padding: 0 ;
+        height: 150px;
+        widht: 150px;
+        position: relative;
+        top: -25px;
+        z-index: 1;
+}
+
+
+.linkmenu { display: flex;
+        text-align: center;
+        margin: 0;
+        list-style-type: none;
+        height: 100px;
+
+}       
+
+
+.linkmenu a {  
+        display: inline;
+        font-size: 20px;
+        list-style-type: none;
+        padding: 10px;
+        transition: 0.5s;
+}
+
+.linkmenu a:hover {   
+                display: inline;
+                font-size: 25px;
+                list-style-type: none;
+                padding: 10px;
 
 }
+
+
+.aid1 { 
+          font-family: 'Roboto', sans-serif; 
+        color:  black;
+        font-size: 24px;
+        text-decoration: none;
+        padding: 0px;
+
+}
+
+
+
+.maincont2 { 
+              background-color: whitesmoke;
+              display:flex;
+              flex-direction:column ;
+              justify-content: space-between;
+}
+
+.article2 {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+
+}
+
+
+
+#h4 {     flex: 3;
+          height: 200px;
+          width: 400px;
+          font-family: 'Roboto', sans-serif; 
+          color:  black;
+          font-size: 16px;
+          padding: 50px;
+          font-weight: 300;
+
+}
+
+.container { display: flex;
+  flex-direction: row ;
+  position: relative;
+  background-color: whitesmoke;
+
+}
+
+.image { flex: 2;
+  display: block;
+  position: relative;
+  left: 100px;
+  top: 50px;
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100px;
+  top: 50px;
+  right: 0;
+  height: 200px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FF1448;
+}
+
+.container:hover .overlay {
+  opacity: 0.85;
+}
+
+.textclock {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container2 {background-color: black;
+   height: 600px;
+}
+
+.maintable {
+  width: 80%;
+  position: relative;
+  left: 100px;
+top: 50px;
+}
+
+th {
+  height: 200px;
+}
+
+.description {  font-family: 'Roboto', sans-serif; 
+                color:  whitesmoke;
+                font-size: 16px;
+                widht: 50px;
+                padding: 20px;
+                text-align: center;
+}
+
+.tablepics { font-family: 'Roboto', sans-serif; 
+                color:  whitesmoke;
+                font-size: 16px;
+                width: 30;
+
+}
+
+.plantae {width: 30%
+}
+
+.titles {font-family: 'Roboto', sans-serif; 
+                color:  whitesmoke;
+                font-size: 16px;
+                text-align: center;
+                padding: 20px;
+
+}
+
+
+.footer1 {
+          background-color: darkturquoise;
+          width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -195,7 +393,7 @@ margin-top: 7px;
   margin-top: 8px;
   margin-right: 16px;
   font-size: 17px;
-}
+} 
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 /*@media screen and (max-width: 600px) {
