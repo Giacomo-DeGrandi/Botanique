@@ -1,5 +1,6 @@
 
 body { background-color: black;
+        overflow-x: hidden;
 
  }
 
@@ -23,7 +24,7 @@ body { background-color: black;
         position: relative;
 }
 
-#menutitle {  font-family: 'Playfair Display', serif; 
+#menutitle {  font-family: 'Roboto', sans-serif; 
         color:  whitesmoke;
          font-size: 22px;
          font-weight: 300;
@@ -54,7 +55,7 @@ margin-top: 7px;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  font-family: 'Playfair Display', serif; 
+  font-family:'Roboto', sans-serif; 
   color:  whitesmoke;
   font-size: 22px;
   font-weight: 300;
@@ -63,7 +64,7 @@ margin-top: 7px;
 
 .dropdown-content a:hover {border: solid 1px whitesmoke;
         display: block;
-        font-family: 'Playfair Display', serif; 
+        font-family: 'Roboto', sans-serif; 
         color:  #FF1448;
         font-size: 22px;
         font-weight: 300;
@@ -105,6 +106,7 @@ margin-top: 7px;
                 font-size: 23px;
                 padding: 28px;
                 widht: 500px;
+                height: 100%;
                 margin-top: px;
                 font-weight: 300;
                 position: relative;
@@ -145,31 +147,31 @@ margin-top: 7px;
 .secondmain { font-family: 'Roboto', sans-serif; 
         display: flex;
         align-content: flex-end;
-        background-color: 053225;
-        height: 600px;
+        justify-content: space-between;
+        height: 300px;
         position:static;
-        padding: 50px;
-        margin-top: 300px;
         z-index:1;
+        width: 100%;
 }
 
 #presentation {font-family: 'Roboto', sans-serif; 
-                color:  black;
+                color:  whitesmoke;
                 font-size: 22px;
                 padding: 20px;
                 font-weight: 300;
                 position: static;
                 z-index:1;
-                width: 70%;
+                width: 100%;
+                margin-top: 20px;
                 text-align: center;
                 position: relative;
-                left: 130px;
+
 }
 
 
 
 .undermenu {
-        height: 400px;
+        height: 300px;
         display: flex;
         justify-content: space-between;
         align-content: flex-end;
@@ -183,10 +185,61 @@ margin-top: 7px;
 
 }
 
-#decouvre {width: 50%;
-      background-color: whitesmoke;
+#decouvre {width: 100%;
+          font-family: 'Roboto', sans-serif; 
+           color: whitesmoke;
+           text-decoration: none;
+
+      
 }
 
+#bush { 
+  overflow-wrap: hidden;
+  width: 30%;
+
+}
+
+#flowers {
+  width: 70%;
+
+}
+
+#plantes {
+  width:100%;
+}
+
+#veggie {
+  width: 40%;
+
+
+}
+
+.footer2 {display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: 'Roboto', sans-serif; 
+        color: whitesmoke;
+        padding: 10px;
+        text-decoration: none;
+
+}
+
+.footertable2 {width: 800px;
+              height: 130px;
+              margin-left: 100px;
+              z-index: 3;
+              text-align: right;
+              text-decoration: none;
+              color: whitesmoke;
+              text-decoration: none;
+}
+
+
+.linktr a { text-decoration: none;
+          font-family: 'Roboto', sans-serif; 
+        color: whitesmoke;
+
+}
 
 
 
@@ -444,13 +497,12 @@ margin-top: 7px;
 .footertable {width: 80%;
               height: 130px;
               margin-left: 100px;
-}
-
-.footertable {
-  text-align: left;
+               z-index: 3;
+                 text-align: left;
   text-decoration: none;
   color: whitesmoke;
 }
+
 
 .footer1 {display: flex;
         flex-direction: row;
@@ -459,6 +511,7 @@ margin-top: 7px;
         color: whitesmoke;
         padding: 10px;
         background-color: #053225;
+
 }
 
 
