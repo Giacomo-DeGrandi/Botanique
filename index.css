@@ -198,20 +198,26 @@ margin-top: 7px;
 #plantesbody {  margin: 0;
                 background-color: #1C2826;
                 overflow-x: hidden;
+
  }
 
 .header2 { margin-top: 5px;
+    position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        z-index: 1;
+
 }
 
 
 .nav2 { height: 45px;
-
+        
 }
 
 .logo { 
         padding: 0 ;
-        height: 120px;
-        widht: 150px;
+        height: 60px;
+        widht: 75px;
         position: relative;
         top: -25px;
         z-index: 1;
@@ -271,29 +277,33 @@ margin-top: 7px;
 
 
 
-#h4 {     flex: 3;
+#h4 {     
           height: 200px;
-          width: 400px;
+          width: 500px;
           font-family: 'Roboto', sans-serif; 
           color:  black;
           font-size: 16px;
           padding: 50px;
           font-weight: 300;
+          margin-right: 90px;
+          margin-top: 70px;
 
 }
 
 .container { display: flex;
   flex-direction: row ;
+  justify-content: space-between;
   position: relative;
   background-color: #F1FFFA;
 
 }
 
-.image { flex: 2;
+
+.image {
   display: block;
   position: relative;
-  left: 100px;
-  top: 50px;
+  height: 400px;
+  width: 700px;
 
 }
 
@@ -310,7 +320,7 @@ margin-top: 7px;
   background-color: #FF1448;
 }
 
-.container:hover .overlay {
+.image:hover .overlay {
   opacity: 0.85;
 }
 
@@ -388,7 +398,7 @@ margin-top: 7px;
                 padding: 30px;
                 width:500px;
                 margin-top: 50px;
-                height: 100px;
+                height: 90px;
 }
 
 
@@ -397,13 +407,74 @@ margin-top: 7px;
                 margin-right: 120px;
  }
 
+ .upping {  margin-top: -20px;
+            background-image: url("pics/orchid.jpg");
+            
+ }
 
+.searchplant {width: 100%;
+              height: 50vh;
+              backgroun-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              backface-visibility: hidden;   /* BAAAAAAM */
+              animation: searchplant 20s linear infinite 0s;
+              animation-timing-function: ease-in-out;
+              background-image: url("pics/orchid.jpg");
+
+}
+
+@keyframes searchplant {
+    0% {
+    background-image: url("pics/orchid.jpg");
+  }
+  25% {
+    background-image: url("pics/orchid.jpg");
+  }
+    25% {
+    background-image: url("pics/bannerkew.jpeg");
+  }
+    50% {
+    background-image: url("pics/vinca.jpeg");
+  }
+    75% {
+    background-image: url("pics/park.jpg");
+  }
+    100% {
+    background-image: url("pics/park.jpg");
+  }
+}
+
+
+
+#backp {  
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: 'Roboto', sans-serif; 
+        padding: 20px;
+        color:  whitesmoke;
+        font-size: 16px;
+        width: 500px;
+        position: relative;
+        margin-left: 400px ;
+        top: 20px;
+        background-color: rgba(0,0,0,0.5);
+}
+
+#kew {
+  background-color: whitesmoke;
+  width: 40%;
+  position: relative;
+  left: 130px;
+  padding: 10px;
+}
 
 .footer1 {
           background-color: #053225;
-          height: 400px;
+          height: 180px;
           width: 100%;
-}
+        }
 
 
 
