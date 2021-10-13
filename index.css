@@ -145,7 +145,7 @@ margin-top: 7px;
 .secondmain { font-family: 'Roboto', sans-serif; 
         display: flex;
         align-content: flex-end;
-        background-color: floralwhite;
+        background-color: 053225;
         height: 600px;
         position:static;
         padding: 50px;
@@ -195,21 +195,22 @@ margin-top: 7px;
 
 
 
-#plantesbody { background-color: floralwhite;
+#plantesbody {  margin: 0;
+                background-color: #1C2826;
                 overflow-x: hidden;
  }
 
-.header2 {
-        top: 0;
+.header2 { margin-top: 5px;
 }
 
 
-.nav2 { height: 100px;
+.nav2 { height: 45px;
+
 }
 
 .logo { 
         padding: 0 ;
-        height: 150px;
+        height: 120px;
         widht: 150px;
         position: relative;
         top: -25px;
@@ -221,7 +222,7 @@ margin-top: 7px;
         text-align: center;
         margin: 0;
         list-style-type: none;
-        height: 100px;
+        height: 30px;
 
 }       
 
@@ -245,10 +246,10 @@ margin-top: 7px;
 
 .aid1 { 
           font-family: 'Roboto', sans-serif; 
-        color:  black;
+        color:  whitesmoke;
         font-size: 24px;
         text-decoration: none;
-        padding: 0px;
+        padding: 2px;
 
 }
 
@@ -284,7 +285,7 @@ margin-top: 7px;
 .container { display: flex;
   flex-direction: row ;
   position: relative;
-  background-color: whitesmoke;
+  background-color: #F1FFFA;
 
 }
 
@@ -327,52 +328,84 @@ margin-top: 7px;
 }
 
 .container2 {background-color: black;
-   height: 600px;
+   height: 430px;
 }
 
 .maintable {
   width: 80%;
   position: relative;
   left: 100px;
-top: 50px;
+  top: 50px;
 }
 
-th {
-  height: 200px;
-}
 
 .description {  font-family: 'Roboto', sans-serif; 
                 color:  whitesmoke;
                 font-size: 16px;
-                widht: 50px;
-                padding: 20px;
+                widht: 20%;
+                padding: 10px;
                 text-align: center;
 }
 
-.tablepics { font-family: 'Roboto', sans-serif; 
-                color:  whitesmoke;
-                font-size: 16px;
-                width: 30;
+.tablepics {
+            width: 30%;
 
 }
 
-.plantae {width: 30%
+
+.tablepics:hover { 
+                width: 30%;
+                border: solid 1px whitesmoke;
+                transition: 0.5s;
 }
 
-.titles {font-family: 'Roboto', sans-serif; 
+
+.titles {       font-family: 'Roboto', sans-serif; 
                 color:  whitesmoke;
-                font-size: 16px;
+                font-size: 24px;
                 text-align: center;
-                padding: 20px;
-
+                transition: 0.5s;
 }
+
+
+#recolnat {background-color: white;
+}
+
+.globalcouncil {  display: flex;
+                  justify-content: space-around;
+                  background-image: url("pics/bkgcouncil.jpg");
+                   background-color: #499F68;
+                  height: 300px;
+                  width: 100%;
+}
+
+#counciltext {  background-color: black;
+
+                font-family: 'Roboto', sans-serif; 
+                color:  whitesmoke;
+                font-size: 16px;
+                text-align: left;
+                padding: 30px;
+                width:500px;
+                margin-top: 50px;
+                height: 100px;
+}
+
+
+#imgcouncil { margin-top: 20px;
+                padding: 30px;
+                margin-right: 120px;
+ }
+
 
 
 .footer1 {
-          background-color: darkturquoise;
+          background-color: #053225;
+          height: 400px;
           width: 100%;
-
 }
+
+
 
 
 
