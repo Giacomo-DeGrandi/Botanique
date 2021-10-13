@@ -248,7 +248,7 @@ margin-top: 7px;
 
 
 
-#plantesbody {  margin: 0;
+#presentationbody {  margin: 0;
                 background-color: #1C2826;
                 overflow-x: hidden;
 
@@ -516,32 +516,158 @@ margin-top: 7px;
 
 
 
+/* OTHER PAGES */
+
+.maincontainer {display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: 'Roboto', sans-serif; 
+        color: whitesmoke;
+        padding: 10px;
+        background-color: black;
+        text-align: center;
+
+}
 
 
+#plantables {
+        margin-top:100px;
+        left: 100px; 
+        border-collapse:collapse; 
+}
+
+.tableimagecover1 {
+              width:70%;
+              padding: 20px ;
+              background-color: #499F68;
+}
 
 
+.imgdesc {
+  position: absolute;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  object-fit: cover;
+
+  /* transition effect. not necessary */
+  transition: opacity .5s, visibility .5s;
+}
+
+.overtable {overflow: hidden;
+        width: 300px;
+        height: 200px;
+}
+
+.cutit:hover .imgdesc {
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+    top: 300 px;
+    object-fit: cover;
+}
 
 
+#lasttr {
+    width: 10%;
+}
 
 
+.button {
+        display: inline-block; 
+        float: center;
+        border: 1px solid whitesmoke;
+        background-color: #499F68;
+        border-radius: 2px;
+        font-size: 16px;
+        width: 5%;
+        padding: 1%;
+        text-align: center;
+        transition: 1s;
+        position : relative;
+        font-family: 'Roboto', sans-serif; 
+        color: whitesmoke;
+        margin-top: 20px;
+        margin-right: 140px;
+
+}
+
+.button:hover  {
+        background-image: url("pics/bannerkew.jpg"); ;
+        display: inline-block;
+        border: 2px solid whitesmoke;
+        background-color: #A33987;
+        border-radius: 2px;
+        font-size: 17px;
+        width: 140px;
+        height: 24px;
+        padding: 1%;
+        text-align: center;
+        margin-left: 100px;
+
+    }
 
 
+#searchsec {font-family: 'Roboto', sans-serif; 
+        color: whitesmoke;
+        font-size: 18px;
+        margin-top: 100px;
+        margin-right: 49px;
+}
 
 
+.topnav3 {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav3 a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
 
-/*.topnav input[type=text] {
-  float: right;
+.topnav3 .search-container {
+  float: center;
+}
+
+.topnav3 input[type=text] {
   padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
   border: none;
+}
+
+.topnav3 .search-container button {
+  float: center;
+  padding: 6px 10px;
   margin-top: 8px;
   margin-right: 16px;
+  background-image: url("pics/search.png");
+  height: 20px;
+  widht: 20px;
+  border-radius: 10px;
+  background-color: black;
   font-size: 17px;
-} 
+  border: none;
+  cursor: pointer;
+}
 
-/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
-/*@media screen and (max-width: 600px) {
-  .topnav a, .topnav input[type=text] {
+.topnav3 .search-container button:hover { background-image: url("pics/search.png");
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav3 .search-container {
+    float: none;
+  }
+  .topnav3 a, .topnav3 input[type=text], .topnav3 .search-container button {
     float: none;
     display: block;
     text-align: left;
@@ -549,7 +675,17 @@ margin-top: 7px;
     margin: 0;
     padding: 14px;
   }
-  .topnav input[type=text] {
-    border: 1px solid #ccc;
+  .topnav3 input[type=text] {
+    border: 1px solid #ccc;  
   }
-}*/ 
+}
+
+
+
+
+
+
+
+
+
+
