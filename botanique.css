@@ -18,6 +18,10 @@ body { background-color: black;
         justify-content: flex-end;
 }
 
+#menuleaf { width: 100px;
+            height: 100px;
+
+}
 
 .dropbtn { 
         cursor: pointer;
@@ -140,7 +144,6 @@ margin-top: 7px;
                 padding: 20px;
                 font-weight: 300;
                 width: 35% ;
-                margin-top: -50px;
 
 }
 
@@ -415,7 +418,11 @@ margin-top: 7px;
 
 
 #recolnat {background-color: white;
+            width: 260px;
+            height: 100px;
 }
+
+
 
 .globalcouncil {  display: flex;
                   justify-content: space-around;
@@ -441,6 +448,8 @@ margin-top: 7px;
 #imgcouncil { margin-top: 20px;
                 padding: 30px;
                 margin-right: 120px;
+                widht: 200px;
+                height: 200px;
  }
 
  .upping {  margin-top: -20px;
