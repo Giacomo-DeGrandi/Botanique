@@ -234,10 +234,19 @@ margin-top: 7px;
               text-decoration: none;
 }
 
-
-.linktr a { text-decoration: none;
+#nodeco {text-decoration: none;
           font-family: 'Roboto', sans-serif; 
         color: whitesmoke;
+}
+
+#nodeco a { text-decoration: none;
+          font-family: 'Roboto', sans-serif; 
+        color: whitesmoke;
+}
+
+#nodeco a:hover { text-decoration: none;
+          font-family: 'Roboto', sans-serif; 
+        color: #FF1448;
 
 }
 
