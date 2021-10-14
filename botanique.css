@@ -89,7 +89,6 @@ margin-top: 7px;
 .maincont {
         width: 100%;
         background-color: black ;
-        height: %;
 }
 
 
@@ -103,18 +102,19 @@ margin-top: 7px;
 }
 
 
-.article1 {     font-family: font-family: 'Roboto', sans-serif; 
+.article1 {     font-family:'Roboto', sans-serif; 
                 color:  whitesmoke;
                 font-size: 23px;
                 padding: 28px;
-                widht: 500px;
+                width: 1000px;
                 height: 100%;
-                margin-top: px;
                 font-weight: 300;
                 position: relative;
                 z-index:1;
 
 }
+
+
 
 
 #stronger {
@@ -128,7 +128,7 @@ margin-top: 7px;
 }
 
 #h2 {	
-		font-family: font-family: 'Roboto', sans-serif;  
+		font-family:'Roboto', sans-serif;  
 		color:  whitesmoke;
 		font-size: 22px;
 		padding: 20px;
@@ -194,8 +194,7 @@ margin-top: 7px;
       
 }
 
-#bush { 
-  overflow-wrap: hidden;
+#bush {
   width: 30%;
 
 }
@@ -280,7 +279,7 @@ margin-top: 7px;
 .logo { 
         padding: 0 ;
         height: 60px;
-        widht: 75px;
+        width: 60px;
         position: relative;
         top: -25px;
         z-index: 1;
@@ -353,6 +352,30 @@ margin-top: 7px;
 
 }
 
+#firstbutton {  display: flex;
+                background-color: #1C2826 ;
+                border:  solid 1px whitesmoke;
+                font-family: 'Roboto', sans-serif; 
+                color:  white;
+                font-size: 16px;
+                padding: 8px;
+                border-radius: 10px;
+                cursor: pointer;
+                text-decoration: none;
+}
+
+#firstbutton:hover {  display: flex;
+                background-color: #499F68 ;
+                border:  solid 1px whitesmoke;
+                font-family: 'Roboto', sans-serif; 
+                color:  white;
+                font-size: 16px;
+                padding: 8px;
+                border-radius: 10px;
+                cursor: pointer;
+                text-decoration: none;
+}
+
 .container { display: flex;
   flex-direction: row ;
   justify-content: space-between;
@@ -375,7 +398,7 @@ margin-top: 7px;
 
 
 .container2 {background-color: black;
-   height: 430px;
+   height: 440px;
 }
 
 .maintable {
@@ -389,8 +412,7 @@ margin-top: 7px;
 .description {  font-family: 'Roboto', sans-serif; 
                 color:  whitesmoke;
                 font-size: 16px;
-                widht: 20%;
-                padding: 10px;
+                width: 20%;
                 text-align: center;
 }
 
@@ -416,7 +438,7 @@ margin-top: 7px;
 
 
 #recolnat {background-color: white;
-            width: 260px;
+            width: 270px;
             height: 100px;
 }
 
@@ -446,7 +468,7 @@ margin-top: 7px;
 #imgcouncil { margin-top: 20px;
                 padding: 30px;
                 margin-right: 120px;
-                widht: 200px;
+                width: 400px;
                 height: 200px;
  }
 
@@ -457,7 +479,7 @@ margin-top: 7px;
 
 .searchplant {width: 100%;
               height: 50vh;
-              backgroun-position: center;
+              background-position: center;
               background-size: cover;
               background-repeat: no-repeat;
               backface-visibility: hidden;  
@@ -570,7 +592,7 @@ margin-top: 7px;
   opacity: 0;
   object-fit: cover;
 
-  /* transition effect. not necessary */
+  /* transition effect. pas necessaire */
   transition: opacity .5s, visibility .5s;
 }
 
@@ -583,7 +605,6 @@ margin-top: 7px;
     visibility: visible;
     opacity: 1;
     position: relative;
-    top: 300 px;
     object-fit: cover;
 }
 
@@ -595,7 +616,6 @@ margin-top: 7px;
 
 .button {
         display: inline-block; 
-        float: center;
         border: 1px solid whitesmoke;
         background-color: #499F68;
         border-radius: 2px;
@@ -653,7 +673,6 @@ margin-top: 7px;
 
 
 .topnav3 .search-container {
-  float: center;
 }
 
 .topnav3 input[type=text] {
@@ -664,13 +683,12 @@ margin-top: 7px;
 }
 
 .topnav3 .search-container button {
-  float: center;
   padding: 6px 10px;
   margin-top: 8px;
   margin-right: 16px;
   background-image: url("pics/search.png");
   height: 20px;
-  widht: 20px;
+  width: 20px;
   border-radius: 10px;
   background-color: black;
   font-size: 17px;
