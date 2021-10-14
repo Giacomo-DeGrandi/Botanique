@@ -361,12 +361,15 @@ margin-top: 7px;
 }
 
 
-.image {
+#image { background-image: url("pics/forest.jpg");
   display: block;
   position: relative;
   height: 400px;
   width: 700px;
+}
 
+#image:hover {
+    background-image: url("pics/leaf.jpg");
 }
 
 
