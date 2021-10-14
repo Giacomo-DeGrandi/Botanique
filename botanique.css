@@ -1,12 +1,10 @@
 
 body { background-color: black;
-        overflow-x: hidden;
 
  }
 
 .header1 {
         width: 100%;
-
         position: -webkit-sticky; /* Safari */
         position: sticky;
         top: 0;
@@ -262,7 +260,7 @@ margin-top: 7px;
 
 #presentationbody {  margin: 0;
                 background-color: #1C2826;
-                overflow-x: hidden;
+
 
  }
 
@@ -515,13 +513,13 @@ margin-top: 7px;
   padding: 10px;
 }
 
-.footertable {width: 80%;
-              height: 130px;
-              margin-left: 100px;
-               z-index: 3;
-                 text-align: left;
-  text-decoration: none;
-  color: whitesmoke;
+.footertable {  width: 80%;
+                height: 130px;
+                margin-left: 100px;
+                z-index: 3;
+                text-align: left;
+                text-decoration: none;
+                color: whitesmoke;
 }
 
 
